@@ -2,8 +2,6 @@
 
 ## ----------------------------------------------------------------------
 ## PLEASE READ THE INSTRUCTIONS GIVEN AND RUN THE APPLICATION
-## ALL FILES ADDED IN THIS FOLDER "CODE_Metadata_sanitizer_for_file_sharing_PROJECT" are related to the project source code, requirements and Additional files that were used during the development of the project.
-## --------------------------------------------------------------------
 
 # METADATA SANITIZER FOR FILE SHARING
 
