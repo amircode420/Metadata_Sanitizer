@@ -1,8 +1,3 @@
------ README File for METADATA SANITIZER FOR FILE SHARING -----
-
-## ----------------------------------------------------------------------
-## PLEASE READ THE INSTRUCTIONS GIVEN AND RUN THE APPLICATION
-
 # METADATA SANITIZER FOR FILE SHARING
 
 ## How to run this application
