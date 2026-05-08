@@ -1,5 +1,9 @@
 # METADATA SANITIZER FOR FILE SHARING
 
+## Introduction
+
+Metadata sanitizer for file sharing is an Offline desktop application that is built on python using PyQT5. This application removes metadata from files like pdfs, word document and images (jpg) before you share it online on a forum or any website helping you protect yourself from any unintentional information leaks. 
+
 ## How to run this application
 
 To get run this application, you must first install the required dependencies.
@@ -41,8 +45,8 @@ The application's operations will be logged, The logs can be viewed from the "vi
 Users can find more information about the application by clicking the "Help" button next to the "View Logs" button.
 
 This educates the users on what Metadata is and why it is important to remove. It is a mini guide on how the application works.
-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+More features will be added.
 
 
 
