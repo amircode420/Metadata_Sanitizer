@@ -38,7 +38,7 @@ This will sanitize the file and save a copy of the original file, preserving the
 
 The application's operations will be logged, The logs can be viewed from the "view logs" button on the top right corner of the application.
 
-## Users can find more information about the application by clicking the "Help" button next to the "View Logs" button.
+Users can find more information about the application by clicking the "Help" button next to the "View Logs" button.
 
 This educates the users on what Metadata is and why it is important to remove. It is a mini guide on how the application works.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
