@@ -134,7 +134,7 @@ class HelperWindow(QDialog): # QDIALOG MAKES IT A POP WINDOW
         <div style='margin-top: 20px; padding: 10px; background-color: {dark_wg}; border-radius: 5px;'></div>
 
         <h6><b><br> This is a security Tool Made for securing the privacy of individuals. Future Works May implement advanced File Cleansing and Additional Features</br><b></h6>
-        <center><h6><i><br> THIS TOOL WAS CREATED BY Amir Fardeen </br></i></h6></center> 
+        <center><h6><i><br> THIS TOOL WAS CREATED BY Amir</br></i></h6></center> 
         """
 
         help_label = QLabel(guide_content)
