@@ -40,7 +40,7 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Metadata Sanitizer for File Sharing")
-        self.setStyleSheet(f"background-color: {dark_bg}; color: {text_col};")
+        self.setStyleSheet(f"background-color: #1F2937; color: {text_col};")
         self.resize(900,600)
         self.logger = OperationLogger()
         #self.initUI()
@@ -51,17 +51,32 @@ class MainWindow(QWidget):
         #upper widget
         top_bar = QHBoxLayout()
         title = QLabel("Metadata Sanitizer for File Sharing")
-        title.setStyleSheet(f"font-size: 30px; color: {text_col};")
+        title.setStyleSheet(f'''QLabel{{
+                        font-family: "Cascadia Code";
+                        font-weight: bold;
+                        font-size: 30px; 
+                        color: {text_col};
+                    }}
+                    ''')
         top_bar.addWidget(title)
         top_bar.addStretch()
 
         #UPPER BUTTONS
         help_button = QPushButton("Help")
+        help_button.setStyleSheet(f'''QPushButton{{
+                                  background-color: #38BDF8;
+                                  }}
+                                  QPushButton:Hover{{
+                                  background-color:#1E3A8A;
+                                  }}''')
         log_button = QPushButton("View Logs")
         log_button.setStyleSheet(f'''QPushButton{{
                                 font-size: 15px;
-                                background-color: {dark_wg};
-                                color: green;
+                                background-color: #38BDF8;
+                                color: white;
+                                }}
+                                QPushButton:Hover{{
+                                background-color: #1E3A8A;
                                 }}''')
 
         # UPPER BUTTON FUNCTIONALITY (HELP)
@@ -128,11 +143,11 @@ class MainWindow(QWidget):
         button.setGeometry(10, 520, 160, 50)
         button.setFixedSize(QtCore.QSize(160, 50))
         button.setStyleSheet(f'''QPushButton{{
-            background-color: {dark_wg}; font-size: 20px; 
+            background-color: #38BDF8; font-size: 20px; 
             color: {text_col}; border-radius: 10px; border:none; font-family: arial; font-weight: bold; 
             }}
             QPushButton:hover {{
-            background-color: {col_accent};
+            background-color: #FBBF24;
                              }}''')
         button.clicked.connect(self.new_click)
         down_bar.addWidget(button)
@@ -145,7 +160,7 @@ class MainWindow(QWidget):
         button2.setStyleSheet(f'''QPushButton{{
             font-size: 20px; 
             color:{text_col};
-            background-color: {dark_wg};
+            background-color: #38BDF8;
             padding: 10px 20px; 
             border-radius: 10px;
             border:none;
@@ -155,7 +170,7 @@ class MainWindow(QWidget):
             }}
                               
             QPushButton:hover{{
-            background-color: #3b7546;
+            background-color: #34D399;
             }}
             ''')
         button2.setFixedSize(QtCore.QSize(150, 50))
