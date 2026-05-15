@@ -55,7 +55,7 @@ class MainWindow(QWidget):
                         font-family: "Cascadia Code";
                         font-weight: bold;
                         font-size: 30px; 
-                        color: {text_col};
+                        color: #00FFFF;
                     }}
                     ''')
         top_bar.addWidget(title)
@@ -64,6 +64,9 @@ class MainWindow(QWidget):
         #UPPER BUTTONS
         help_button = QPushButton("Help")
         help_button.setStyleSheet(f'''QPushButton{{
+                                  font-size: 15px;
+                                  font-weight: bold;
+                                  font-style: italic;
                                   background-color: #38BDF8;
                                   }}
                                   QPushButton:Hover{{
@@ -72,6 +75,8 @@ class MainWindow(QWidget):
         log_button = QPushButton("View Logs")
         log_button.setStyleSheet(f'''QPushButton{{
                                 font-size: 15px;
+                                font-weight: bold;
+                                font-style: italic;
                                 background-color: #38BDF8;
                                 color: white;
                                 }}
